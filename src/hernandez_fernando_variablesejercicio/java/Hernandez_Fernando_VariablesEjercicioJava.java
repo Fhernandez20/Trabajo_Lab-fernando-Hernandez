@@ -19,6 +19,7 @@ public class Hernandez_Fernando_VariablesEjercicioJava {
         // TODO code application logic here
         // Conseguir informacion del empleado
         Scanner lea=new Scanner(System.in);
+        lea.useDelimiter("\n");
         System.out.println("Ingresar Nombre del Empleado: ");
         String nombreEmpleado= lea.next();
         System.out.println("Hora de Trabajo Mensual: ");
